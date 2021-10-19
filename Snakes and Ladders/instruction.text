@@ -1,0 +1,9 @@
+Assumption:
+At the start of the game every player will be at position 0.
+Turns will be made in the order of creation of Players.
+Two of the following can not be at same current position.
+    snake_head,snake_tail,ladder_head,ladder_tail
+No possibility of game getting in an infinite loop.
+For example:Suppose there is a mouth of snake from 94 to 99 at each position so the 
+participant can not move to 100 by any move.
+The player which will reach the 100 first will be winner and the game will be closed.

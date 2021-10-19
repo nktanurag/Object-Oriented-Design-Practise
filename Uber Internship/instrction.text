@@ -1,0 +1,18 @@
+Write design of system for a car rental website supporting functionalities 
+
+addcar(availability location, carmodel, hourly price)
+addlocation(loc_name, hrs of availability(eg. 9-7)
+searchcars(pickuptime,dropofftime)
+Searchandsortbyprice(pickuptime, dropofftime)
+
+
+The system should be such that each car and location has a unique id.
+Cases:
+void addlocation(loc_name, startTime,endTime)   :return id assigned to the location
+int addCar(carLocation,carModel,price) :return id assigned to the car
+vector<int> searchCar(startTime,endTime)  :return all ids of car which is available
+vector<vector<int>> sortCarByPrice(startTime,endTime) : return ids and price of cars available sorted by price
+
+object needed:
+Location:locationName,startTime,endTime,id 
+Car:location,model,id,price
